@@ -26,7 +26,7 @@ export function ControlBilling() {
                     {/* Contenido de texto */}
                     <div className="flex flex-col justify-between">
                          <div className="bg-white px-4 py-2 flex items-center">
-                            <Image src="/assets/medalla.png" width="60" height="40" alt="Logo Bank" />
+                            <Image src="/assets/medalla.png" width={60} height={40} alt="Logo Bank" />
                          
                         </div>
 
@@ -68,7 +68,7 @@ export function ControlBilling() {
                     {/* Contenido de texto */}
                     <div className="flex flex-col justify-between">
                          <div className="bg-white px-4 py-2 flex items-center">
-                            <Image src="/assets/medalla.png" width="60" height="40" alt="Logo Bank" />
+                            <Image src="/assets/medalla.png" width={60} height={40}  alt="Logo Bank" />
                          
                         </div>
 

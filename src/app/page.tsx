@@ -12,12 +12,12 @@ import { Footer2 } from "@/components/Footer2";
 export default function Home() {
   return (
     <>
-      <Header />
-      <FirstBlock />
-      <ServiceData />
-      <ShopMarket />
-      <BestBusiness />
-      <ControlBilling />
+      <Header /> {/* Nav bar*/}
+      <FirstBlock />  {/* Galeria*/}
+      <ServiceData />  {/* En que podemos ayudarte */}
+      <ShopMarket />  {/* Catalogo*/}
+      <BestBusiness />  {/* Nuestras tiendas*/}
+      <ControlBilling />  {/* Claro trasparente*/}
       <Testimonials />
       <PaymentsMethods />
       <Footer />
