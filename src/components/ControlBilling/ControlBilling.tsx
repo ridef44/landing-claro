@@ -1,10 +1,7 @@
 "use client"
 
-import Image from "next/image"
-import { MotionTransition } from "../MotionTransition"
-import { Reveal } from "../Reveal"
 
-import { RiFileTextLine, RiArrowRightSLine, RiArrowRightLine  } from 'react-icons/ri'; 
+import {  RiArrowRightLine  } from 'react-icons/ri'; 
 
 export function ControlBilling() {
     return (
@@ -26,7 +23,7 @@ export function ControlBilling() {
                     {/* Contenido de texto */}
                     <div className="flex flex-col justify-between">
                          <div className="bg-white px-4 py-2 flex items-center">
-                            <Image src="/assets/medalla.png" width={60} height={40} alt="Logo Bank" />
+                            <img src="/assets/medalla.png" width="60" height="40" alt="Logo Bank" />
                          
                         </div>
 
@@ -68,7 +65,7 @@ export function ControlBilling() {
                     {/* Contenido de texto */}
                     <div className="flex flex-col justify-between">
                          <div className="bg-white px-4 py-2 flex items-center">
-                            <Image src="/assets/medalla.png" width={60} height={40}  alt="Logo Bank" />
+                         <img src="/assets/medalla.png" width="60" height="40" alt="Logo Bank" />
                          
                         </div>
 

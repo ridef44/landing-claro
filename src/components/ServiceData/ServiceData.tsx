@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 import { MotionTransition } from "../MotionTransition";
 import {  RiArrowRightSLine  } from 'react-icons/ri'; // Importa el icono de búsqueda
 
@@ -20,7 +19,8 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/factura.png" width={80} height={60} alt="Logo Bank" />
+              
+                    <img src="/assets/factura.png" alt="" />
                     
                       
                     </div>
@@ -46,7 +46,7 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/chat.png" width={80} height={60} alt="Logo Bank" />
+                    <img src="/assets/chat.png" alt="Logo Bank" />
                       
                     </div>
                     {/* Contenido de texto */}
@@ -70,7 +70,7 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/tarjeta.png" width={80} height={60} alt="Logo Bank" />
+                    <img src="/assets/tarjeta.png"  alt="Logo Bank" />
                       
                     </div>
                     {/* Contenido de texto */}
@@ -95,7 +95,7 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/tele.png" width={80} height={60} alt="Logo Bank" />
+                    <img src="/assets/tele.png" alt="Logo Bank" />
                       
                     </div>
                     {/* Contenido de texto */}

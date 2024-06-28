@@ -1,6 +1,5 @@
 "use client"
 import 'swiper/css'
-import Image from 'next/image'
 import React, { useState } from 'react';
 import { RiArrowDropDownLine, RiArrowDropUpLine, RiArrowRightLine } from "react-icons/ri";
 
@@ -26,7 +25,7 @@ export function PaymentsMethods() {
             <div className="w-full md:w-1/6 p-4 flex flex-col justify-center items-center text-center border border-gray-200 bg-white rounded-lg shadow-lg">
                 <h2 className="text-3xl md:text-2xl font-semibold my-2">Servicio al cliente</h2>
                 <div className="my-8">
-                    <Image src="/assets/telefono.png" width={50} height={30} alt="Logo Bank" />
+                    <img src="/assets/telefono.png" width="50" height="30" alt="Logo Bank" />
                 </div>
                 <p className="text-md md:text-md mb-8">Llámanos cuando necesites.</p>
                 <button className="bg-white text-red-600 border border-red-600 py-2 px-6 rounded-full text-sm font-semibold hover:bg-red-600 hover:text-white">
@@ -38,7 +37,7 @@ export function PaymentsMethods() {
             <div className="w-full md:w-1/6 p-4 flex flex-col justify-center items-center text-center border border-gray-200 bg-white rounded-lg shadow-lg">
                 <h2 className="text-3xl md:text-2xl font-semibold my-2">Nuestras tiendas</h2>
                 <div className="my-8">
-                    <Image src="/assets/tienda.png" width={50} height={30} alt="Logo Bank" />
+                    <img src="/assets/tienda.png" width="50" height="30" alt="Logo Bank" />
                 </div>
                 <p className="text-md md:text-md mb-8">Conocé nuestros horarios y direcciones..</p>
                 <button className="bg-white text-red-600 border border-red-600 py-2 px-6 rounded-full text-sm font-semibold hover:bg-red-600 hover:text-white">
@@ -49,7 +48,7 @@ export function PaymentsMethods() {
             <div className="w-full md:w-1/6 p-4 flex flex-col justify-center items-center text-center border border-gray-200 bg-white rounded-lg shadow-lg">
                 <h2 className="text-3xl md:text-2xl font-semibold my-2">Servicio al cliente</h2>
                 <div className="my-8">
-                    <Image src="/assets/whatsapp.png" width={50} height={30} alt="Logo Bank" />
+                    <img src="/assets/whatsapp.png" width="50" height="30" alt="Logo Bank" />
                 </div>
                 <p className="text-md md:text-md mb-8">Resolvemos todas tus dudas.</p>
                 <button className="bg-white text-red-600 border border-red-600 py-2 px-6 rounded-full text-sm font-semibold hover:bg-red-600 hover:text-white">

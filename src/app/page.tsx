@@ -18,9 +18,9 @@ export default function Home() {
       <ShopMarket />  {/* Catalogo*/}
       <BestBusiness />  {/* Nuestras tiendas*/}
       <ControlBilling />  {/* Claro trasparente*/}
-      <Testimonials />
-      <PaymentsMethods />
-      <Footer />
+      <Testimonials /> {/* Banner america movil */}
+      <PaymentsMethods /> {/* Tienes alguna duda */}
+      <Footer /> 
       <Footer2 />
     </>
   )
