@@ -20,7 +20,8 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/factura.png" width="80" height="60" alt="Logo Bank" />
+                    <Image src="/assets/factura.png" width={80} height={60} alt="Logo Bank" />
+                    
                       
                     </div>
                     {/* Contenido de texto */}
@@ -45,7 +46,7 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/chat.png" width="80" height="60" alt="Logo Bank" />
+                    <Image src="/assets/chat.png" width={80} height={60} alt="Logo Bank" />
                       
                     </div>
                     {/* Contenido de texto */}
@@ -69,7 +70,7 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/tarjeta.png" width="80" height="60" alt="Logo Bank" />
+                    <Image src="/assets/tarjeta.png" width={80} height={60} alt="Logo Bank" />
                       
                     </div>
                     {/* Contenido de texto */}
@@ -94,7 +95,7 @@ export function ServiceData() {
                 <div className="h-auto bg-white rounded-xl p-4 flex">
                     {/* Icono en la esquina superior izquierda */}
                     <div className="w-1/4 flex items-start justify-start py-4">
-                    <Image src="/assets/tele.png" width="80" height="60" alt="Logo Bank" />
+                    <Image src="/assets/tele.png" width={80} height={60} alt="Logo Bank" />
                       
                     </div>
                     {/* Contenido de texto */}
