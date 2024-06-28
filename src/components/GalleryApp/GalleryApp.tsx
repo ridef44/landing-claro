@@ -17,7 +17,7 @@ export function GalleryApp() {
         autoplay: false,
         autoplaySpeed: 2000,
         arrows: true,
-        beforeChange: (current, next) => setCurrentIndex(next)
+        
     };
 
     return (
