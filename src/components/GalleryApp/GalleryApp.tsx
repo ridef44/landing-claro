@@ -17,7 +17,6 @@ export function GalleryApp() {
         autoplay: false,
         autoplaySpeed: 2000,
         arrows: true,
-        
     };
 
     return (
