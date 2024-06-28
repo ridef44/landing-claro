@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+    images: {
+      disableStaticImages: true,
+    },
+  };
+  
+  module.exports = nextConfig;
+  
