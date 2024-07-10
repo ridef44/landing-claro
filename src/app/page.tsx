@@ -14,11 +14,12 @@ export default function Home() {
     <>
       <Header /> {/* Nav bar*/}
       <FirstBlock />  {/* Galeria*/}
+      <Testimonials /> {/* Banner america movil */}
       <ServiceData />  {/* En que podemos ayudarte */}
       <ShopMarket />  {/* Catalogo*/}
       <BestBusiness />  {/* Nuestras tiendas*/}
       <ControlBilling />  {/* Claro trasparente*/}
-      <Testimonials /> {/* Banner america movil */}
+      
       <PaymentsMethods /> {/* Tienes alguna duda */}
       <Footer /> 
       <Footer2 />
