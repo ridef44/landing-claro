@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Script from "next/script";
 import { useEffect } from 'react';
 
@@ -16,12 +15,10 @@ export function Testimonials() {
     return (
         <div className="relative w-full h-screen" id="testimonios">
             <div className="absolute inset-0">
-                <Image
+                <img
                     src="/assets/form-img.webp"  // Asegúrate de que esta ruta sea correcta
                     alt="Banner"
-                    layout="fill"
-                    objectFit="cover"
-                    className="z-0"
+                    style={{ position: 'absolute', width: '100%', height: '100%', objectFit: 'cover', zIndex: 0 }}
                 />
             </div>
             <div className="relative flex justify-end items-center w-full h-full p-8">
